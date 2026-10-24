@@ -1,0 +1,405 @@
+{
+ "note": "Items from the game list with no measured size yet. Clothing is skipped because it is worn, not placed.",
+ "groups": [
+  {
+   "name": "Living variants",
+   "skip": false,
+   "items": [
+    "Spider Cake",
+    "Gray Melon",
+    "Melonator",
+    "Nuclear Living",
+    "Halloween Skeleton",
+    "Mixed Fruit",
+    "Glowing Pumpkin"
+   ]
+  },
+  {
+   "name": "Melee weapons",
+   "skip": false,
+   "items": [
+    "Axe 1",
+    "Axe 2",
+    "Labrys",
+    "Pickax",
+    "Blue Ax",
+    "Staff",
+    "Fire Staff",
+    "Dark Staff",
+    "Spiked Staff",
+    "Glowing Staff",
+    "Glue Staff",
+    "Ballooning Staff",
+    "Slick Staff",
+    "Ghostly Staff",
+    "Mutation Staff",
+    "Old Broom",
+    "Stop Sign"
+   ]
+  },
+  {
+   "name": "Firearms and ammo",
+   "skip": false,
+   "items": [
+    "Blue Pistol",
+    "Blue Revolver",
+    "Crossbow",
+    "Grenade Launcher",
+    "Cup Thrower",
+    "Rocket Launcher",
+    "Paintball Gun",
+    "Nail Gun",
+    "Blade Launcher",
+    "Homing Launcher",
+    "Letter Gun",
+    "Flare Gun",
+    "Speargun",
+    "Hookshot",
+    "Party Popper",
+    "Energy Blaster",
+    "Railgun",
+    "Protogun",
+    "Tool Gun",
+    "Explosive",
+    "Incendiary",
+    "Armor-Piercing",
+    "Expanding",
+    "Acidic",
+    "Bouncing",
+    "Underwater",
+    "Invisible"
+   ]
+  },
+  {
+   "name": "Syringes and flasks",
+   "skip": false,
+   "items": [
+    "Healing",
+    "Acid",
+    "Immortality",
+    "Underwater",
+    "Fireproof",
+    "Virus",
+    "Electricity Protection",
+    "Hard Skin",
+    "Embalming",
+    "Joint Diluent",
+    "Regrowth",
+    "Frost Protection",
+    "Healing (Flask)",
+    "Acid (Flask)",
+    "Immortality (Flask)",
+    "Underwater (Flask)",
+    "Fireproof (Flask)",
+    "Virus (Flask)",
+    "Electricity Protection (Flask)",
+    "Hard Skin (Flask)",
+    "Embalming (Flask)",
+    "Joint Diluent (Flask)",
+    "Regrowth (Flask)",
+    "Frost (Flask)"
+   ]
+  },
+  {
+   "name": "Clothing and armor",
+   "skip": true,
+   "items": [
+    "Vest Light",
+    "Military Helmet",
+    "Medical Helmet",
+    "Vest Medium",
+    "Vest Heavy",
+    "Helmet",
+    "Pads",
+    "Armor Medieval",
+    "Helmet Medieval 1",
+    "Helmet Medieval 2",
+    "Helmet Medieval 3",
+    "Hard Hat",
+    "Construction Vest",
+    "Medical Cap",
+    "Bandana",
+    "Sunglasses",
+    "Hat",
+    "Business Suit",
+    "Trousers",
+    "Shoes",
+    "Cap",
+    "T-Shirt",
+    "Jeans",
+    "Boots",
+    "Dress",
+    "Camo Suit",
+    "Camo Trousers",
+    "Beard",
+    "Shorts",
+    "Rabbit Hat",
+    "Witch Hat",
+    "Fairy Wings",
+    "Rabbit Costume",
+    "Shirt",
+    "Kefia",
+    "Kefia Half",
+    "Wings",
+    "Nimbus",
+    "Headphones",
+    "Old Shawl",
+    "Old Sweater",
+    "Old Skirt",
+    "Old Slippers",
+    "Police Cap",
+    "Police Shirt",
+    "Police Trousers",
+    "Clown Wig",
+    "Clown Nose",
+    "Clown Shirt",
+    "Clown Trousers",
+    "Clown Shoes",
+    "Wizard Beard",
+    "Wizard Robe",
+    "Wizard Shoes",
+    "Red Coat",
+    "Fur Coat",
+    "Winter Jacket",
+    "Winter Coat",
+    "Winter Socks",
+    "Warm Pants",
+    "PomPom Hat",
+    "Pilot Hat",
+    "Winter Boots",
+    "Wig",
+    "Dark Wig",
+    "Emo Wig",
+    "Iroquois",
+    "Cloak",
+    "Patterned Cloak",
+    "Tattered Cloak",
+    "Glowing Cloak",
+    "Vampire Cloak",
+    "Parachute",
+    "Space Helmet",
+    "Space Suit",
+    "Gas Mask",
+    "Chemical Helmet",
+    "Chemical Suit",
+    "Welder's Mask",
+    "Welder's Gloves",
+    "Welder's Suit",
+    "Party Hat",
+    "Party Horn",
+    "Parasite Cap",
+    "Wet Suit",
+    "Diving Suit",
+    "Diving Armor",
+    "Fireproof Suit",
+    "Fireproof Helmet",
+    "Christmas Hat",
+    "Santa Costume",
+    "Elf Hat",
+    "Elf Costume",
+    "Sweater"
+   ]
+  },
+  {
+   "name": "Programmable (chips)",
+   "skip": false,
+   "items": [
+    "All Nodes",
+    "Velocity",
+    "Following",
+    "Array"
+   ]
+  },
+  {
+   "name": "Mechanics",
+   "skip": false,
+   "items": [
+    "Thruster",
+    "Plug",
+    "Socket"
+   ]
+  },
+  {
+   "name": "Devices and sensors",
+   "skip": false,
+   "items": [
+    "Entities Maker"
+   ]
+  },
+  {
+   "name": "Light sources",
+   "skip": false,
+   "items": [
+    "Streetlight",
+    "Fluorescent Lamp (1 and 2)"
+   ]
+  },
+  {
+   "name": "Music instruments",
+   "skip": false,
+   "items": [
+    "Drums",
+    "Flutes",
+    "Xylophone",
+    "Guitar",
+    "Piano"
+   ]
+  },
+  {
+   "name": "Vehicles",
+   "skip": false,
+   "items": [
+    "Jeep",
+    "APC",
+    "Bus",
+    "Truck",
+    "Helicopter",
+    "Banana Ride",
+    "Submarine",
+    "Inflatable Boat",
+    "Speed Boat",
+    "Banana Boat"
+   ]
+  },
+  {
+   "name": "Fluid items",
+   "skip": false,
+   "items": [
+    "Fluid Tank",
+    "Oil Can",
+    "Syringe Machine",
+    "Watering Can",
+    "Juice Bottle",
+    "Tomato Juice",
+    "Dragon Juice",
+    "Corn Juice",
+    "Pumpkin Juice",
+    "Cactus Juice",
+    "Apple Juice",
+    "Melon Juice",
+    "Coral Juice",
+    "Glass Jar",
+    "Liquid Collector",
+    "Liquid Duplicator",
+    "Pump"
+   ]
+  },
+  {
+   "name": "Other (stock props)",
+   "skip": false,
+   "items": [
+    "Gift Box"
+   ]
+  },
+  {
+   "name": "Modular structures",
+   "skip": false,
+   "items": [
+    "Rusty Compartment",
+    "Modern Compartment",
+    "Hermetic Door 1",
+    "Hermetic Door 2",
+    "Passageway 1",
+    "Passageway 2",
+    "Dome",
+    "Strong Dome",
+    "Docking Hatch",
+    "Old Triangular Compartment",
+    "Modern Triangular Compartment",
+    "Old Rounded Compartment",
+    "Modern Rounded Compartment"
+   ]
+  },
+  {
+   "name": "Resizable plates",
+   "skip": false,
+   "items": [
+    "Grey Camo Plate",
+    "Yellow Camo Plate",
+    "Sand Camo Plate",
+    "Metal Plate",
+    "Wooden Plate",
+    "Plastic Plate",
+    "Concrete Plate",
+    "Gothic Brick"
+   ]
+  },
+  {
+   "name": "Dishes",
+   "skip": false,
+   "items": [
+    "Cup",
+    "Teapot",
+    "Plate",
+    "Bowl",
+    "Bottle"
+   ]
+  },
+  {
+   "name": "Building",
+   "skip": false,
+   "items": [
+    "Beam",
+    "Side Log"
+   ]
+  },
+  {
+   "name": "Sports",
+   "skip": false,
+   "items": [
+    "Basketball Ball",
+    "Basketball Hoop",
+    "Soccer Ball",
+    "Soccer Ball",
+    "Tennis Ball"
+   ]
+  },
+  {
+   "name": "Laboratory",
+   "skip": false,
+   "items": [
+    "Nanoassembler",
+    "Sectional Test Tube",
+    "Wide Test Tube",
+    "Thin Test Tube",
+    "Conical Flask",
+    "Measuring Flask",
+    "Reaction Flask",
+    "Vat Of Acid"
+   ]
+  },
+  {
+   "name": "Nature",
+   "skip": false,
+   "items": [
+    "Spruce",
+    "Big Spruce",
+    "Cactus (Plant)",
+    "Corn (Misc)",
+    "Apple (Misc)",
+    "Apple Tree",
+    "Tree",
+    "Bush",
+    "Palm Tree",
+    "Dragon Fruit (Misc)",
+    "Coral (Blue)",
+    "Coral (Pink)"
+   ]
+  },
+  {
+   "name": "Flags",
+   "skip": false,
+   "items": [
+    "Watermelon Flag",
+    "Apple Flag",
+    "Red Flag",
+    "Corn Flag",
+    "Pumpkin Flag",
+    "Yellow Flag",
+    "Pitaya Flag",
+    "Cactus Flag",
+    "White Flag"
+   ]
+  }
+ ]
+}

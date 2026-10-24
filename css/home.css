@@ -1,0 +1,19 @@
+.hm { max-width: 1240px; }
+.hm-hero { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 32px; align-items: center; padding: 8px 0 36px; }
+.hm-copy h1 { margin-bottom: .4em; }
+.hm-lede { font-size: 1.15rem; color: var(--fg); max-width: 34ch; }
+.hm-note { margin-top: 18px; max-width: 40ch; }
+.hm-demo .player { box-shadow: 8px 8px 0 rgba(0,0,0,.28); }
+.hm h2 { margin-top: 1.4em; }
+.hm-thumb { background: var(--concrete); border: 2px solid var(--ink); margin-bottom: 8px; line-height: 0; overflow: hidden; }
+.hm-thumb canvas { width: 100% !important; height: auto !important; }
+.hm-build { display: grid; gap: 2px; }
+.hm-tile { display: grid; gap: 4px; align-content: start; }
+.hm-tile h3 { margin: 6px 0 0; }
+.hm-tile p { margin: 0; color: var(--fg-dim); }
+.hm-ic { color: var(--coin); display: inline-flex; }
+.hm-stats { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 14px; }
+.hm-stat { background: var(--bg-2); border: 2px solid var(--line); padding: 12px 18px; display: grid; min-width: 180px; }
+.hm-stat b { font: 600 1.6rem var(--font-head); color: var(--coin); }
+.hm-stat span { color: var(--fg-dim); }
+@media (max-width: 900px) { .hm-hero { grid-template-columns: 1fr; gap: 20px; } .hm-lede { max-width: none; } }

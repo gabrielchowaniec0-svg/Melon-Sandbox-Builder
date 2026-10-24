@@ -1,0 +1,10 @@
+{
+  "name": "melon-sandbox-builder",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Plan Melon Sandbox contraptions on a scaled 2D grid.",
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  }
+}

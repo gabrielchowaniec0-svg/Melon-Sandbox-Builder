@@ -1,0 +1,1527 @@
+{
+ "v": 1,
+ "blueprints": [
+  {
+   "id": "crate-pyramid",
+   "title": "Crate pyramid",
+   "summary": "Ten crates in rows of four, three, two and one. Every crate sits on the two below it, so it is a good first build to check your grid.",
+   "difficulty": "Easy",
+   "tags": [
+    "crates",
+    "stacking",
+    "no wiring"
+   ],
+   "status": "Untested plan",
+   "notes": [
+    "Crates are placed half a crate in from the row below, so each one rests on two crates."
+   ],
+   "floating": [],
+   "floatTip": null,
+   "dims": {
+    "w": 4.0,
+    "h": 4.0,
+    "cellsW": 32,
+    "cellsH": 32
+   },
+   "build": {
+    "v": 1,
+    "id": "bp-crate-pyramid",
+    "name": "Crate pyramid",
+    "created": 1792811985104,
+    "updated": 1792811985104,
+    "notes": "",
+    "items": [
+     {
+      "id": "i1",
+      "t": "crate",
+      "x": -1.5,
+      "y": 0.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i2",
+      "t": "crate",
+      "x": -0.5,
+      "y": 0.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i3",
+      "t": "crate",
+      "x": 0.5,
+      "y": 0.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i4",
+      "t": "crate",
+      "x": 1.5,
+      "y": 0.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i5",
+      "t": "crate",
+      "x": -1.0,
+      "y": 1.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i6",
+      "t": "crate",
+      "x": 0.0,
+      "y": 1.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i7",
+      "t": "crate",
+      "x": 1.0,
+      "y": 1.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i8",
+      "t": "crate",
+      "x": -0.5,
+      "y": 2.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i9",
+      "t": "crate",
+      "x": 0.5,
+      "y": 2.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i10",
+      "t": "crate",
+      "x": 0.0,
+      "y": 3.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     }
+    ],
+    "links": [],
+    "steps": []
+   }
+  },
+  {
+   "id": "crate-wall",
+   "title": "Crate wall",
+   "summary": "A wall five crates wide and four high. Rows alternate between five crates and four crates, like a brick wall, so the wall holds together better.",
+   "difficulty": "Easy",
+   "tags": [
+    "crates",
+    "stacking",
+    "no wiring"
+   ],
+   "status": "Untested plan",
+   "notes": [
+    "The four-crate rows start half a crate in from each end.",
+    "Put the bottom row down first and let it settle before you add the next one (inferred; the recordings show crates tumbling when dropped from a height)."
+   ],
+   "floating": [],
+   "floatTip": null,
+   "dims": {
+    "w": 5.0,
+    "h": 4.0,
+    "cellsW": 40,
+    "cellsH": 32
+   },
+   "build": {
+    "v": 1,
+    "id": "bp-crate-wall",
+    "name": "Crate wall",
+    "created": 1792811985104,
+    "updated": 1792811985104,
+    "notes": "",
+    "items": [
+     {
+      "id": "i1",
+      "t": "crate",
+      "x": -2.0,
+      "y": 0.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i2",
+      "t": "crate",
+      "x": -1.0,
+      "y": 0.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i3",
+      "t": "crate",
+      "x": 0.0,
+      "y": 0.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i4",
+      "t": "crate",
+      "x": 1.0,
+      "y": 0.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i5",
+      "t": "crate",
+      "x": 2.0,
+      "y": 0.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i6",
+      "t": "crate",
+      "x": -1.5,
+      "y": 1.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i7",
+      "t": "crate",
+      "x": -0.5,
+      "y": 1.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i8",
+      "t": "crate",
+      "x": 0.5,
+      "y": 1.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i9",
+      "t": "crate",
+      "x": 1.5,
+      "y": 1.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i10",
+      "t": "crate",
+      "x": -2.0,
+      "y": 2.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i11",
+      "t": "crate",
+      "x": -1.0,
+      "y": 2.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i12",
+      "t": "crate",
+      "x": 0.0,
+      "y": 2.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i13",
+      "t": "crate",
+      "x": 1.0,
+      "y": 2.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i14",
+      "t": "crate",
+      "x": 2.0,
+      "y": 2.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i15",
+      "t": "crate",
+      "x": -1.5,
+      "y": 3.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i16",
+      "t": "crate",
+      "x": -0.5,
+      "y": 3.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i17",
+      "t": "crate",
+      "x": 0.5,
+      "y": 3.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i18",
+      "t": "crate",
+      "x": 1.5,
+      "y": 3.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     }
+    ],
+    "links": [],
+    "steps": []
+   }
+  },
+  {
+   "id": "brick-gate",
+   "title": "Brick gate",
+   "summary": "Two Brick Wall slabs stand up as posts, a Short Beam rests across them, and a small tower of Bricks sits on top. A row of Wooden Planks forms a fence on the left.",
+   "difficulty": "Easy",
+   "tags": [
+    "building",
+    "bricks",
+    "no wiring"
+   ],
+   "status": "Untested plan",
+   "notes": [
+    "The Short Beam is 1.96 crates long and the posts are 1.7 crates apart (centre to centre), so the beam overlaps each post by about 0.17 crate.",
+    "Wooden Planks stand upright here. Their sprite is thin, so place them one at a time."
+   ],
+   "floating": [],
+   "floatTip": null,
+   "dims": {
+    "w": 3.2265,
+    "h": 3.062,
+    "cellsW": 26,
+    "cellsH": 24
+   },
+   "build": {
+    "v": 1,
+    "id": "bp-brick-gate",
+    "name": "Brick gate",
+    "created": 1792811985104,
+    "updated": 1792811985104,
+    "notes": "",
+    "items": [
+     {
+      "id": "i1",
+      "t": "brick-wall",
+      "x": -0.85,
+      "y": 1.1305,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i2",
+      "t": "brick-wall",
+      "x": 0.85,
+      "y": 1.1305,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i3",
+      "t": "short-beam",
+      "x": 0.0,
+      "y": 2.3855,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i4",
+      "t": "brick",
+      "x": 0.0,
+      "y": 2.556,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i5",
+      "t": "brick",
+      "x": 0.0,
+      "y": 2.648,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i6",
+      "t": "brick",
+      "x": 0.0,
+      "y": 2.74,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i7",
+      "t": "brick",
+      "x": 0.0,
+      "y": 2.832,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i8",
+      "t": "brick",
+      "x": 0.0,
+      "y": 2.924,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i9",
+      "t": "brick",
+      "x": 0.0,
+      "y": 3.016,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i10",
+      "t": "wooden-plank",
+      "x": -1.45,
+      "y": 0.908,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i11",
+      "t": "wooden-plank",
+      "x": -1.7,
+      "y": 0.908,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i12",
+      "t": "wooden-plank",
+      "x": -1.95,
+      "y": 0.908,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i13",
+      "t": "wooden-plank",
+      "x": -2.2,
+      "y": 0.908,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     }
+    ],
+    "links": [],
+    "steps": []
+   }
+  },
+  {
+   "id": "table-setting",
+   "title": "Table with things on top",
+   "summary": "A Table with a Cake, an Edison Lamp, a Tea Box and a Weight on the top, and a Chair standing beside it. Good for practising small items.",
+   "difficulty": "Easy",
+   "tags": [
+    "props",
+    "lights",
+    "no wiring"
+   ],
+   "status": "Untested plan",
+   "notes": [
+    "Items on the table rest on its measured top edge. If the sprite has a dip in it, items may sit slightly off from this plan.",
+    "The Edison Lamp glowed without any power or wire in the recordings."
+   ],
+   "floating": [],
+   "floatTip": null,
+   "dims": {
+    "w": 2.517,
+    "h": 1.487,
+    "cellsW": 20,
+    "cellsH": 12
+   },
+   "build": {
+    "v": 1,
+    "id": "bp-table-setting",
+    "name": "Table with things on top",
+    "created": 1792811985104,
+    "updated": 1792811985104,
+    "notes": "",
+    "items": [
+     {
+      "id": "i1",
+      "t": "table",
+      "x": 0.0,
+      "y": 0.4715,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i2",
+      "t": "cake",
+      "x": -0.55,
+      "y": 1.1325,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i3",
+      "t": "edison-lamp",
+      "x": 0.1,
+      "y": 1.215,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i4",
+      "t": "tea-box",
+      "x": 0.5,
+      "y": 1.1305,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i5",
+      "t": "weight",
+      "x": 0.78,
+      "y": 1.1305,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i6",
+      "t": "chair",
+      "x": -1.3,
+      "y": 0.659,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     }
+    ],
+    "links": [],
+    "steps": []
+   }
+  },
+  {
+   "id": "conveyor-loader",
+   "title": "Conveyor loader",
+   "summary": "Two Conveyors end to end carry a crate toward a stack of two crates at the far end. A second crate waits at the start.",
+   "difficulty": "Medium",
+   "tags": [
+    "mechanics",
+    "conveyor",
+    "power button"
+   ],
+   "status": "Untested plan",
+   "notes": [
+    "Conveyor settings shown in the recordings: SPEED 10, REVERSED unchecked, LENGTH 1. This plan keeps those values.",
+    "If the crates move the wrong way, tap a Conveyor, choose EDIT PARAMETERS and tick REVERSED on both.",
+    "How the Conveyor is switched on was not clearly shown. Try the power button at the bottom of the screen, or ACTIVATE in the Conveyor menu (inferred)."
+   ],
+   "floating": [],
+   "floatTip": null,
+   "dims": {
+    "w": 4.4695,
+    "h": 2.0,
+    "cellsW": 36,
+    "cellsH": 16
+   },
+   "build": {
+    "v": 1,
+    "id": "bp-conveyor-loader",
+    "name": "Conveyor loader",
+    "created": 1792811985104,
+    "updated": 1792811985104,
+    "notes": "",
+    "items": [
+     {
+      "id": "i1",
+      "t": "conveyor",
+      "x": -0.86,
+      "y": 0.1935,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i2",
+      "t": "conveyor",
+      "x": 0.86,
+      "y": 0.1935,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i3",
+      "t": "crate",
+      "x": -1.1,
+      "y": 0.887,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i4",
+      "t": "crate",
+      "x": 0.3,
+      "y": 0.887,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i5",
+      "t": "crate",
+      "x": 2.25,
+      "y": 0.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i6",
+      "t": "crate",
+      "x": 2.25,
+      "y": 1.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     }
+    ],
+    "links": [],
+    "steps": []
+   }
+  },
+  {
+   "id": "piston-pusher",
+   "title": "Piston pusher",
+   "summary": "A Piston lies on its side, with two crates behind it as a back-stop. When it fires it should push the crate on the other side.",
+   "difficulty": "Medium",
+   "tags": [
+    "mechanics",
+    "piston",
+    "power button"
+   ],
+   "status": "Untested plan",
+   "notes": [
+    "In the recordings the Piston rod extended upward when triggered, then retracted. SPEED was 1.",
+    "This plan turns the Piston a quarter turn clockwise. Which end the rod comes out of when it is lying down is inferred. If it pushes the wrong way, tap the Piston, go to page 2 of the menu and tap FLIP."
+   ],
+   "floating": [],
+   "floatTip": null,
+   "dims": {
+    "w": 2.95,
+    "h": 2.0,
+    "cellsW": 24,
+    "cellsH": 16
+   },
+   "build": {
+    "v": 1,
+    "id": "bp-piston-pusher",
+    "name": "Piston pusher",
+    "created": 1792811985104,
+    "updated": 1792811985104,
+    "notes": "",
+    "items": [
+     {
+      "id": "i1",
+      "t": "crate",
+      "x": -0.5,
+      "y": 0.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i2",
+      "t": "crate",
+      "x": -0.5,
+      "y": 1.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i3",
+      "t": "piston",
+      "x": 0.4715,
+      "y": 0.093,
+      "r": -90,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i4",
+      "t": "crate",
+      "x": 1.45,
+      "y": 0.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i5",
+      "t": "crate",
+      "x": 1.45,
+      "y": 1.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     }
+    ],
+    "links": [],
+    "steps": []
+   }
+  },
+  {
+   "id": "rocket-cart",
+   "title": "Rocket-engine cart",
+   "summary": "A Short Beam on two Wheels carries a Rocket Engine at the back and a Crate as cargo. The two wheels are tied on with Rods.",
+   "difficulty": "Hard",
+   "tags": [
+    "vehicles",
+    "rocket",
+    "rods",
+    "power button"
+   ],
+   "status": "Untested plan",
+   "notes": [
+    "Rocket Engine FORCE was 600 in the recordings. This plan leaves it at that.",
+    "The recordings never showed how a wheel is attached to a frame. The Rod links here are our guess (inferred). Try a Rod, a Chain or FREEZE ROTATION if the wheels do not turn freely.",
+    "Which end of the Rocket Engine blows flame was not clearly shown. Turn it so the flame points backward (to the left in this plan)."
+   ],
+   "floating": [],
+   "floatTip": null,
+   "dims": {
+    "w": 1.981,
+    "h": 1.751,
+    "cellsW": 16,
+    "cellsH": 14
+   },
+   "build": {
+    "v": 1,
+    "id": "bp-rocket-cart",
+    "name": "Rocket-engine cart",
+    "created": 1792811985104,
+    "updated": 1792811985104,
+    "notes": "",
+    "items": [
+     {
+      "id": "i1",
+      "t": "wheel",
+      "x": -0.7,
+      "y": 0.251,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i2",
+      "t": "wheel",
+      "x": 0.7,
+      "y": 0.251,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i3",
+      "t": "short-beam",
+      "x": 0.0,
+      "y": 0.6265,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i4",
+      "t": "rocket-engine",
+      "x": -0.49,
+      "y": 1.0325,
+      "r": 90,
+      "f": false,
+      "p": {},
+      "label": "Rocket Engine"
+     },
+     {
+      "id": "i5",
+      "t": "crate",
+      "x": 0.5,
+      "y": 1.251,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     }
+    ],
+    "links": [
+     {
+      "id": "l1",
+      "a": "i1",
+      "b": "i3",
+      "kind": "rod",
+      "ax": 0.0,
+      "ay": 0.0,
+      "bx": -0.7,
+      "by": -0.1245,
+      "label": "",
+      "out": "",
+      "in": ""
+     },
+     {
+      "id": "l2",
+      "a": "i2",
+      "b": "i3",
+      "kind": "rod",
+      "ax": 0.0,
+      "ay": 0.0,
+      "bx": 0.7,
+      "by": -0.1245,
+      "label": "",
+      "out": "",
+      "in": ""
+     }
+    ],
+    "steps": []
+   }
+  },
+  {
+   "id": "turret-range",
+   "title": "Turret and target range",
+   "summary": "A Turret on a crate looks across the floor at a standing Pumpkin ragdoll, with a Brick Wall slab behind it as a back-stop. The Pumpkin is about two crates tall.",
+   "difficulty": "Easy",
+   "tags": [
+    "traps",
+    "living",
+    "no wiring"
+   ],
+   "status": "Untested plan",
+   "notes": [
+    "In the recordings the Turret fired by itself at a ragdoll standing to its right, and the ragdoll collapsed.",
+    "No Turret settings were shown. Distances here are our choice."
+   ],
+   "floating": [],
+   "floatTip": null,
+   "dims": {
+    "w": 5.0105,
+    "h": 2.261,
+    "cellsW": 40,
+    "cellsH": 18
+   },
+   "build": {
+    "v": 1,
+    "id": "bp-turret-range",
+    "name": "Turret and target range",
+    "created": 1792811985104,
+    "updated": 1792811985104,
+    "notes": "",
+    "items": [
+     {
+      "id": "i1",
+      "t": "crate",
+      "x": -3.0,
+      "y": 0.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i2",
+      "t": "turret",
+      "x": -3.0,
+      "y": 1.3125,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i3",
+      "t": "pumpkin",
+      "x": 0.5,
+      "y": 1.025,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i4",
+      "t": "brick-wall",
+      "x": 1.4,
+      "y": 1.1305,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     }
+    ],
+    "links": [],
+    "steps": []
+   }
+  },
+  {
+   "id": "tesla-circuit",
+   "title": "Generator, wire and Tesla Coil",
+   "summary": "A Generator on the left is joined by Electric wire to a Tesla Coil on the right and to the head of a Pumpkin ragdoll in the middle.",
+   "difficulty": "Medium",
+   "tags": [
+    "electricity",
+    "wires",
+    "power button"
+   ],
+   "status": "Untested plan",
+   "notes": [
+    "In the recordings, a power button press sent sparks along the ragdoll and the Tesla Coil shot arcs.",
+    "The Generator VOLTAGE field showed 10 and was later set to 1000. It is not clear what the best value is, so this plan leaves the default.",
+    "Use the lightning-bolt tool from the bottom-right picker for the wires (the tool name is inferred)."
+   ],
+   "floating": [],
+   "floatTip": null,
+   "dims": {
+    "w": 4.766,
+    "h": 2.05,
+    "cellsW": 38,
+    "cellsH": 16
+   },
+   "build": {
+    "v": 1,
+    "id": "bp-tesla-circuit",
+    "name": "Generator, wire and Tesla Coil",
+    "created": 1792811985104,
+    "updated": 1792811985104,
+    "notes": "",
+    "items": [
+     {
+      "id": "i1",
+      "t": "generator",
+      "x": -1.9,
+      "y": 0.456,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i2",
+      "t": "pumpkin",
+      "x": 0.0,
+      "y": 1.025,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i3",
+      "t": "tesla-coil",
+      "x": 1.9,
+      "y": 0.973,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     }
+    ],
+    "links": [
+     {
+      "id": "l1",
+      "a": "i1",
+      "b": "i3",
+      "kind": "electric",
+      "ax": 0.4,
+      "ay": 0.3,
+      "bx": 0.0,
+      "by": -0.7,
+      "label": "",
+      "out": "",
+      "in": ""
+     },
+     {
+      "id": "l2",
+      "a": "i1",
+      "b": "i2",
+      "kind": "electric",
+      "ax": 0.3,
+      "ay": 0.35,
+      "bx": 0.0,
+      "by": 0.9,
+      "label": "",
+      "out": "",
+      "in": ""
+     }
+    ],
+    "steps": []
+   }
+  },
+  {
+   "id": "lamp-room",
+   "title": "Lamp room with a door",
+   "summary": "A small room: a Brick Wall on the left, a Door on the right, two Short Beams as the roof, and a Table with an Edison Lamp and a Chair inside.",
+   "difficulty": "Medium",
+   "tags": [
+    "building",
+    "lights",
+    "door"
+   ],
+   "status": "Untested plan",
+   "notes": [
+    "The Door has a power button in the catalog. What it does when activated was not shown in the recordings.",
+    "Both roof beams touch in the middle. Each one rests on a wall."
+   ],
+   "floating": [],
+   "floatTip": null,
+   "dims": {
+    "w": 4.019,
+    "h": 2.51,
+    "cellsW": 32,
+    "cellsH": 20
+   },
+   "build": {
+    "v": 1,
+    "id": "bp-lamp-room",
+    "name": "Lamp room with a door",
+    "created": 1792811985104,
+    "updated": 1792811985104,
+    "notes": "",
+    "items": [
+     {
+      "id": "i1",
+      "t": "table",
+      "x": 0.0,
+      "y": 0.4715,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i2",
+      "t": "edison-lamp",
+      "x": 0.2,
+      "y": 1.215,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i3",
+      "t": "chair",
+      "x": -1.25,
+      "y": 0.659,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i4",
+      "t": "brick-wall",
+      "x": -1.9,
+      "y": 1.1305,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i5",
+      "t": "door",
+      "x": 1.9,
+      "y": 1.1305,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i6",
+      "t": "short-beam",
+      "x": -0.981,
+      "y": 2.3855,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i7",
+      "t": "short-beam",
+      "x": 0.981,
+      "y": 2.3855,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     }
+    ],
+    "links": [],
+    "steps": []
+   }
+  },
+  {
+   "id": "chair-swing",
+   "title": "Rope swing",
+   "summary": "Two Brick Wall posts hold a Short Beam, and a Chair hangs from the beam on two Ropes.",
+   "difficulty": "Medium",
+   "tags": [
+    "ropes",
+    "building",
+    "hanging"
+   ],
+   "status": "Untested plan",
+   "notes": [
+    "The Rope tool is the tan twisted rope in the bottom-right picker. Tap the beam at a point, then SELECT THE SECOND ROPE POINT appears and you tap the chair.",
+    "In the recordings a rope sagged when slack and pulled the objects it joined."
+   ],
+   "floating": [
+    "i4"
+   ],
+   "floatTip": "This part hangs from ropes in this plan. Pause the game with the top-right pause button, or tap it and FREEZE it, then attach both ropes. Unfreeze it afterwards (inferred).",
+   "dims": {
+    "w": 1.962,
+    "h": 2.51,
+    "cellsW": 16,
+    "cellsH": 20
+   },
+   "build": {
+    "v": 1,
+    "id": "bp-chair-swing",
+    "name": "Rope swing",
+    "created": 1792811985104,
+    "updated": 1792811985104,
+    "notes": "",
+    "items": [
+     {
+      "id": "i1",
+      "t": "brick-wall",
+      "x": -0.85,
+      "y": 1.1305,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i2",
+      "t": "brick-wall",
+      "x": 0.85,
+      "y": 1.1305,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i3",
+      "t": "short-beam",
+      "x": 0.0,
+      "y": 2.3855,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i4",
+      "t": "chair",
+      "x": 0.0,
+      "y": 1.009,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     }
+    ],
+    "links": [
+     {
+      "id": "l1",
+      "a": "i3",
+      "b": "i4",
+      "kind": "rope",
+      "ax": -0.2,
+      "ay": -0.1245,
+      "bx": -0.2,
+      "by": 0.659,
+      "label": "",
+      "out": "",
+      "in": ""
+     },
+     {
+      "id": "l2",
+      "a": "i3",
+      "b": "i4",
+      "kind": "rope",
+      "ax": 0.2,
+      "ay": -0.1245,
+      "bx": 0.2,
+      "by": 0.659,
+      "label": "",
+      "out": "",
+      "in": ""
+     }
+    ],
+    "steps": []
+   }
+  },
+  {
+   "id": "see-saw",
+   "title": "See-saw with a Weight",
+   "summary": "A Short Beam balances on a Tea Box. A Weight sits on the left end, and a Crate is held above the right end, ready to drop.",
+   "difficulty": "Medium",
+   "tags": [
+    "physics",
+    "launcher",
+    "catapult"
+   ],
+   "status": "Untested plan",
+   "notes": [
+    "The beam rests on a narrow support, so it will tip as soon as the game runs. That is the point of this plan.",
+    "Mass is never shown in the game, so how far the Weight will fly is unknown."
+   ],
+   "floating": [
+    "i4"
+   ],
+   "floatTip": "This crate floats in the plan. FREEZE it, wait until the see-saw is ready, then tap it and UNFREEZE so it falls on the right end.",
+   "dims": {
+    "w": 2.081,
+    "h": 2.9,
+    "cellsW": 17,
+    "cellsH": 23
+   },
+   "build": {
+    "v": 1,
+    "id": "bp-see-saw",
+    "name": "See-saw with a Weight",
+    "created": 1792811985104,
+    "updated": 1792811985104,
+    "notes": "",
+    "items": [
+     {
+      "id": "i1",
+      "t": "tea-box",
+      "x": 0.0,
+      "y": 0.1875,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i2",
+      "t": "short-beam",
+      "x": 0.0,
+      "y": 0.4995,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i3",
+      "t": "weight",
+      "x": -0.8,
+      "y": 0.8115,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i4",
+      "t": "crate",
+      "x": 0.6,
+      "y": 2.4,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": "Falling crate"
+     }
+    ],
+    "links": [],
+    "steps": []
+   }
+  },
+  {
+   "id": "jetpack-test",
+   "title": "Jetpack test pad",
+   "summary": "A Pumpkin ragdoll stands next to a Jetpack, with a three-crate tower beside them as a height marker.",
+   "difficulty": "Easy",
+   "tags": [
+    "vehicles",
+    "living",
+    "experiment"
+   ],
+   "status": "Untested plan",
+   "notes": [
+    "The Jetpack was seen in the item list but never used in the recordings. How to wear it and how to fire it is not known, so treat this as an experiment.",
+    "Try dragging the Jetpack onto the ragdoll, then use the power button at the bottom of the screen (inferred)."
+   ],
+   "floating": [],
+   "floatTip": null,
+   "dims": {
+    "w": 2.756,
+    "h": 3.0,
+    "cellsW": 22,
+    "cellsH": 24
+   },
+   "build": {
+    "v": 1,
+    "id": "bp-jetpack-test",
+    "name": "Jetpack test pad",
+    "created": 1792811985104,
+    "updated": 1792811985104,
+    "notes": "",
+    "items": [
+     {
+      "id": "i1",
+      "t": "pumpkin",
+      "x": -0.6,
+      "y": 1.025,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i2",
+      "t": "jetpack",
+      "x": -0.16,
+      "y": 0.473,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i3",
+      "t": "crate",
+      "x": 1.5,
+      "y": 0.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i4",
+      "t": "crate",
+      "x": 1.5,
+      "y": 1.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i5",
+      "t": "crate",
+      "x": 1.5,
+      "y": 2.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     }
+    ],
+    "links": [],
+    "steps": []
+   }
+  },
+  {
+   "id": "gyro-tumbler",
+   "title": "Gyroscope tumbler",
+   "summary": "A Crate with a Gyroscope on top, and a second Gyroscope on the floor next to it.",
+   "difficulty": "Easy",
+   "tags": [
+    "mechanics",
+    "gyroscope",
+    "power button"
+   ],
+   "status": "Untested plan",
+   "notes": [
+    "In the recordings the power button made the crate and its Gyroscope rotate and tumble, and a loose Gyroscope spin.",
+    "The Gyroscope showed no settings. How it sticks to the crate was not shown, so it may just rest on top at first."
+   ],
+   "floating": [],
+   "floatTip": null,
+   "dims": {
+    "w": 1.7185,
+    "h": 1.41,
+    "cellsW": 14,
+    "cellsH": 11
+   },
+   "build": {
+    "v": 1,
+    "id": "bp-gyro-tumbler",
+    "name": "Gyroscope tumbler",
+    "created": 1792811985104,
+    "updated": 1792811985104,
+    "notes": "",
+    "items": [
+     {
+      "id": "i1",
+      "t": "crate",
+      "x": 0.0,
+      "y": 0.5,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i2",
+      "t": "gyroscope",
+      "x": 0.0,
+      "y": 1.205,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     },
+     {
+      "id": "i3",
+      "t": "gyroscope",
+      "x": 1.0,
+      "y": 0.205,
+      "r": 0,
+      "f": false,
+      "p": {},
+      "label": ""
+     }
+    ],
+    "links": [],
+    "steps": []
+   }
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "version": 1,
+ "note": "Names read from the in-game chip editor (gate list scrolled in a recording). Behaviour descriptions are standard-logic meanings, not confirmed in game.",
+ "groups": [
+  {
+   "name": "Common",
+   "gates": [
+    "Constant",
+    "Time",
+    "Identity",
+    "Comment",
+    "Prev Frame",
+    "Trigger",
+    "Camera Position",
+    "Camera Zoom",
+    "Lua Script"
+   ]
+  },
+  {
+   "name": "Math",
+   "gates": [
+    "Abs",
+    "Add",
+    "Average",
+    "Min",
+    "Max",
+    "Ceil",
+    "Clamp",
+    "Clamp01",
+    "Divide",
+    "Exponent",
+    "E",
+    "Exponent Power",
+    "Negate",
+    "Percent",
+    "Pi",
+    "Random",
+    "Round",
+    "Sign",
+    "Sqr",
+    "Sqrt",
+    "Subtract",
+    "Floor",
+    "Inverse",
+    "Interpolate",
+    "Logarithm",
+    "Remainder",
+    "Multiply",
+    "Power",
+    "Delta Previous",
+    "Counter",
+    "Delay",
+    "Accumulator"
+   ]
+  },
+  {
+   "name": "Trigonometry",
+   "gates": [
+    "Delta Angle",
+    "Arccosinus",
+    "Arcsinus",
+    "Arctangent",
+    "Atan2",
+    "Arccotangent",
+    "Cos",
+    "Sin",
+    "Tangent",
+    "Cotangent",
+    "Deg To Rad",
+    "Rad To Deg",
+    "Cosine Formula (Side)",
+    "Cosine Formula (Angle)",
+    "Pythagorean Theorem (Hypotenuse)",
+    "Pythagorean Theorem (Cathetus)"
+   ]
+  },
+  {
+   "name": "Logic",
+   "gates": [
+    "And",
+    "Branch",
+    "Or",
+    "Not And",
+    "Not Or",
+    "Not",
+    "Exclusive Or",
+    "Not Exclusive Or",
+    "Select"
+   ]
+  },
+  {
+   "name": "Comparisons",
+   "gates": [
+    "Equal",
+    "Not Equal",
+    "Greater Or Equal",
+    "Greater",
+    "Less Or Equal",
+    "Less",
+    "Is In Range Exclusive",
+    "Is In Range Inclusive"
+   ]
+  },
+  {
+   "name": "Bitwise operations",
+   "gates": [
+    "And",
+    "Not",
+    "Or",
+    "Xor",
+    "Shift Left",
+    "Shift Right"
+   ]
+  },
+  {
+   "name": "Vectors",
+   "gates": [
+    "Add",
+    "Combine",
+    "Cross Product",
+    "Split",
+    "Dot Product",
+    "Equal",
+    "Identity",
+    "Normalize",
+    "Not Equal",
+    "Positive",
+    "Rotate",
+    "Shift Left",
+    "Shift Right",
+    "Subtract",
+    "Angle Between",
+    "Interpolate",
+    "Magnitude",
+    "Sqr Magnitude",
+    "RGB To HSV",
+    "HSV To RGB",
+    "Min",
+    "Max"
+   ]
+  },
+  {
+   "name": "Entities",
+   "gates": [
+    "Normal",
+    "Angle",
+    "Angular Velocity",
+    "Velocity",
+    "Add Force",
+    "Add Angular Force",
+    "Add Force At Position",
+    "Elevation",
+    "Entity ID",
+    "ID To Entity",
+    "Equal",
+    "Not Equal",
+    "ID Is Valid",
+    "World Position To Local",
+    "World Angle To Local",
+    "Local Position To World",
+    "Local Angle To World",
+    "Look At",
+    "Mass",
+    "Mass Center",
+    "Position",
+    "Velocity At Position",
+    "Temperature",
+    "Color",
+    "Can Be Activated",
+    "Activate",
+    "Gravity",
+    "Freeze",
+    "Size",
+    "Ignite",
+    "Extinguish",
+    "Follow",
+    "Collision",
+    "Delete",
+    "Voltage",
+    "Physic Material",
+    "Entity Name",
+    "Unlocalized Name",
+    "Draggability",
+    "Radio Receiver"
+   ]
+  },
+  {
+   "name": "Strings",
+   "gates": [
+    "Add",
+    "Equal",
+    "Not Equal",
+    "Find",
+    "Identity",
+    "Length",
+    "Lowercase",
+    "Uppercase",
+    "Reverse",
+    "Repeat",
+    "Replace",
+    "Substring",
+    "Trim",
+    "To String",
+    "To ASCII",
+    "From ASCII",
+    "To Number",
+    "To Time",
+    "To Date"
+   ]
+  },
+  {
+   "name": "Array",
+   "gates": [
+    "Get",
+    "Add",
+    "Set",
+    "Length",
+    "Remove By Value",
+    "Remove By Index",
+    "Find",
+    "Clear"
+   ]
+  }
+ ]
+}

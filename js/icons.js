@@ -1,0 +1,35 @@
+// Inline 24px icons (stroke style). icon('build') -> SVG string.
+const P = {
+  home: '<path d="M3 11 12 3l9 8v10h-6v-6H9v6H3z"/>',
+  build: '<path d="M3 3h18v18H3z"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/>',
+  learn: '<path d="M3 5h8a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H3z"/><path d="M21 5h-5a2 2 0 0 0-2 2v13a2 2 0 0 1 2-2h5z"/>',
+  plans: '<path d="M4 4h16v16H4z"/><path d="M8 16v-5h3v5M13 16V8h3v8"/>',
+  wiki: '<circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/><path d="M8 11h6M11 8v6"/>',
+  tools: '<path d="M14 6a4 4 0 0 0 5 5l-9 9a2.5 2.5 0 0 1-3.5-3.5z"/><path d="M14 6l3-3 3 3-3 3"/>',
+  play: '<path d="M7 4v16l13-8z"/>',
+  plus: '<path d="M12 5v14M5 12h14"/>',
+  copy: '<rect x="8" y="8" width="12" height="12"/><path d="M4 16V4h12"/>',
+  download: '<path d="M12 3v12M7 10l5 5 5-5M4 20h16"/>',
+  upload: '<path d="M12 17V5M7 10l5-5 5 5M4 20h16"/>',
+  trash: '<path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/>',
+  undo: '<path d="M9 5 4 10l5 5"/><path d="M4 10h10a6 6 0 0 1 0 12h-3"/>',
+  redo: '<path d="m15 5 5 5-5 5"/><path d="M20 10H10a6 6 0 0 0 0 12h3"/>',
+  hand: '<path d="M8 12V5.5a1.5 1.5 0 0 1 3 0V11M11 10V4.5a1.5 1.5 0 0 1 3 0V11M14 10V6.5a1.5 1.5 0 0 1 3 0V13a7 7 0 0 1-7 7c-3 0-4-1-6-4l-1.5-3a1.5 1.5 0 0 1 2.5-1.5L8 14"/>',
+  pointer: '<path d="m5 3 14 8-6 2-2 6z"/>',
+  link: '<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>',
+  spark: '<path d="M12 2l2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5z"/>',
+  flip: '<path d="M12 3v18"/><path d="M8 7 3 12l5 5zM16 7l5 5-5 5z"/>',
+  rotate: '<path d="M20 12a8 8 0 1 1-3-6.2"/><path d="M20 4v5h-5"/>',
+  layers: '<path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/>',
+  menu: '<path d="M4 6h16M4 12h16M4 18h16"/>',
+  close: '<path d="M5 5l14 14M19 5 5 19"/>',
+  search: '<circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/>',
+  ruler: '<path d="M3 17 17 3l4 4L7 21z"/><path d="m8 12 2 2M11 9l2 2M14 6l2 2"/>',
+  sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/>',
+  check: '<path d="m4 12 5 5 11-11"/>',
+  chip: '<rect x="6" y="6" width="12" height="12"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/>',
+  sheet: '<path d="M4 4h16v16H4z"/><path d="M4 10h16M4 15h16M10 4v16"/>',
+};
+export function icon(name, size = 24) {
+  return `<svg viewBox="0 0 24 24" width="${size}" height="${size}" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true">${P[name] || ''}</svg>`;
+}

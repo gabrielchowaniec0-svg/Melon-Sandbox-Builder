@@ -1,0 +1,30 @@
+/* Schematic game-screen component (js/ui-mock.js). */
+.uim { margin: 0; display: grid; gap: 8px; background: var(--bg-2); border: 2px solid var(--line); padding: 10px; min-width: 0; }
+.uim-tag { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.uim-title { font: 600 .92rem var(--font-head); color: var(--fg-dim); }
+.uim-frame { border: 2px solid var(--ink); background: #6d7173; line-height: 0; overflow: hidden; }
+.uim-svg { display: block; width: 100%; height: auto; font-family: var(--font-body), system-ui, sans-serif; }
+.uim-bar { display: flex; gap: 6px; align-items: center; }
+.uim-count { margin-left: auto; font: 600 .85rem var(--font-head); color: var(--fg-dim); }
+.uim-caption { margin: 0; min-height: 3.2em; font-size: 1rem; font-weight: 600; max-width: none; padding: 2px 2px 0; }
+.uim-lead { margin: 0; color: var(--fg-dim); max-width: none; }
+.uim-list { font-size: .92rem; color: var(--fg-dim); }
+.uim-list summary { cursor: pointer; min-height: 32px; display: flex; align-items: center; font-weight: 600; }
+.uim-list ol { margin: .4em 0 0; padding-left: 1.3em; }
+.uim-list li { margin: .25em 0; }
+
+.uim-finger { transition: transform .75s cubic-bezier(.3, .7, .3, 1), opacity .3s; pointer-events: none; opacity: 0; }
+.uim-ring { fill: none; stroke: #fff; stroke-width: 4; transform-box: fill-box; transform-origin: center; animation: uim-ring .6s ease-out forwards; }
+@keyframes uim-ring { from { transform: scale(.6); opacity: 1; } to { transform: scale(3); opacity: 0; } }
+.uim-drop { animation: uim-drop .7s cubic-bezier(.5, 0, 1, .6) both; }
+@keyframes uim-drop { from { transform: translateY(-190px); opacity: 0; } 30% { opacity: 1; } to { transform: none; } }
+.uim-pop { transform-box: fill-box; transform-origin: center; animation: uim-pop .22s ease-out both; }
+@keyframes uim-pop { from { transform: scale(.94); opacity: 0; } to { transform: none; opacity: 1; } }
+.uim-fade { animation: uim-fade .5s ease-out both; }
+@keyframes uim-fade { from { opacity: 0; } to { opacity: 1; } }
+.uim-arc { animation: uim-flick .35s steps(2, jump-none) infinite alternate; }
+@keyframes uim-flick { from { opacity: 1; } to { opacity: .25; } }
+.uim-glow { animation: uim-fade .6s ease-out both; }
+@media (prefers-reduced-motion: reduce) {
+  .uim-finger { transition: none; }
+}
